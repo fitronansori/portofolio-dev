@@ -220,3 +220,62 @@ header {
   text-decoration: underline;
   padding: 10px;
 }
+
+#contact {
+}
+
+#contact .title-nav {
+  margin: 20px 0px;
+}
+
+.contact-form {
+  width: 100%;
+  height: auto;
+  background-color: #192333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form .form-control {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #111926;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-form .form-control:focus {
+  border: 1px solid #27c718;
+}
+
+.contact-form .form-control::placeholder {
+  color: #111926;
+}
+
+.btn-form {
+  width: 100%;
+  height: auto;
+  background-color: #145ed6;
+  color: #fff;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-form:hover {
+  background-color: #134fb1;
+}
+
+footer {
+  background-color: #192333;
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
