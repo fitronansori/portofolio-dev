@@ -1,2 +1,4 @@
 # portofolio dev
+
+Tidak Responsive
  
